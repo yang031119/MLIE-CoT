@@ -1,0 +1,3 @@
+# Optional CLIP/PickScore/HPS scoring; install core requirements first.
+torchvision
+hpsv2

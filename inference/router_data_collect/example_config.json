@@ -1,0 +1,54 @@
+{
+  "acceptable_epsilon": 0.25,
+  "dataset_name": "vcot_flux2_router_data",
+  "dataset_seed": 20260715,
+  "flux2": {
+    "dtype": "bfloat16",
+    "guidance_scale": 3.5,
+    "l1_max_edits": 3,
+    "l1_min_span": 64,
+    "l1_roi_pad_ratio": 1.35,
+    "max_sequence_length": 512,
+    "model_id": "black-forest-labs/FLUX.2-dev",
+    "model_revision": "replace_with_exact_snapshot_commit",
+    "prompt_version": "vcot_v10_flux2_joint_atomic_v2",
+    "resolution": 1024,
+    "steps": 28
+  },
+  "l3": {
+    "family": "flux2",
+    "model_id": "black-forest-labs/FLUX.2-dev",
+    "model_revision": "replace_with_exact_snapshot_commit",
+    "resolution": 1024,
+    "steps": 28,
+    "guidance_scale": 3.5,
+    "max_sequence_length": 512,
+    "max_latent_size": null,
+    "dtype": "bfloat16",
+    "prompt_version": "vcot_v10_l3_initial_base_prompt_v2_positive"
+  },
+  "profile": "flux2_l1_l2_initial_base_l3_v10_joint_v3",
+  "require_flux2_initial_state": true,
+  "require_verified_initial_record": true,
+  "rollouts_per_action": 3,
+  "schema_version": "vcot_v10_router_data_initial_base_l3_v3",
+  "soft_target_temperature": 0.5,
+  "training_balance": {
+    "enabled": true,
+    "max_class_weight": 4.0
+  },
+  "split": {
+    "test": 0.1,
+    "train": 0.8,
+    "validation": 0.1
+  },
+  "utility": {
+    "artifact_severity": 1.0,
+    "cost_per_call": 0.15,
+    "introduced_new_error": 3.0,
+    "preservation": 1.0,
+    "success": 0.0,
+    "target_gain": 3.0,
+    "targeted_fix": 2.0
+  }
+}

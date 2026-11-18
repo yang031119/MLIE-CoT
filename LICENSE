@@ -1,0 +1,56 @@
+MLIE-CoT Non-Commercial Academic Research License
+Version 1.0
+
+1. Materials and scope
+
+This license covers the original MLIE-CoT code, documentation, examples,
+and bundled route-head checkpoint, except where a separate notice applies.
+Each rights holder grants only the rights they own or are authorized to
+license in those materials. Third-party software, models, weights, and data
+remain subject to their own terms. All rights not granted here are reserved.
+
+2. Permitted academic research
+
+You may use, run, copy, and modify the materials, royalty-free and on a
+nonexclusive basis, solely for non-commercial academic research. This
+includes reproducing experiments, comparing methods, and publishing or
+presenting findings. You may share original or modified copies for the same
+purpose under section 4. Publication in a journal or conference run by a
+commercial publisher does not, by itself, make the research commercial.
+This license does not require you to license your independently written
+papers or reported measurements under its terms.
+
+3. Commercial use is prohibited
+
+You may not use the materials or a modified version to develop, test,
+improve, or deliver a commercial product or service, to perform paid client
+work, or otherwise to obtain a commercial advantage. This includes internal
+product research and evaluation, even if no copy is distributed and the
+product has not yet been sold. Academic affiliation does not exempt a
+commercial project. Commercial use requires separate written permission
+from the relevant rights holders.
+
+4. Sharing and attribution
+
+When sharing copies, including public forks, retain this license and all
+copyright and attribution notices. Clearly identify any changes you made.
+Provide the covered materials, including your modifications to them, under
+this same license. Do not imply endorsement by the authors or their
+institutions. Recipients receive the same permissions on the same terms.
+
+5. Patents and other rights
+
+No patent ownership is transferred. A patent holder that grants this license
+or authorizes its grant permits you to practice only those patent claims it
+can license that are necessarily practiced by using the materials as supplied,
+and only for the research permitted in section 2. No commercial patent rights
+or rights under another party's patents are granted. Nothing here limits uses
+that applicable law permits without the rights holder's permission.
+
+6. Termination and disclaimer
+
+Your permissions terminate if you breach these terms. Termination does not
+affect recipients who continue to comply with the license. To the extent
+permitted by applicable law, the materials are provided as is, without
+warranty, and the rights holders are not liable for damages arising from
+use of the materials.

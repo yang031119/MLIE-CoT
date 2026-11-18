@@ -1,0 +1,12 @@
+# Direct dependencies. Install a CUDA-compatible PyTorch build for your system.
+# This is not a GPU-tested version lock.
+torch
+Pillow
+numpy
+transformers
+diffusers
+accelerate
+bitsandbytes
+safetensors
+huggingface-hub
+sentencepiece

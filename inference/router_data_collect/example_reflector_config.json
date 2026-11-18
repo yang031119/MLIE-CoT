@@ -1,0 +1,10 @@
+{
+  "allow_cpu_offload": false,
+  "dtype": "bfloat16",
+  "max_image_side": 1536,
+  "max_new_tokens": 1536,
+  "model": "/absolute/path/to/pinned/qwen/snapshots/replace_with_exact_snapshot_commit",
+  "model_revision": "replace_with_exact_snapshot_commit",
+  "quantization": "8bit",
+  "seed": 20260715
+}
